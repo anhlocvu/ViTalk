@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- To aid tooling, any string-containing xml file in this project should have a filename beginning with "strings" -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--
+      Source: String spoken when a user as selected some characters in a password
+      field, indicating the start and end point of the selection cursor. The word "characters" in
+      this string means letters, numbers, or other symbols, NOT a person.
+      Description: This is spoken to the user. [CHAR_LIMIT=NONE]
+     -->
+    <string name="template_password_selected">Ký tự từ %1$d đến %2$d</string>
+    <!--
+      Source: String spoken when a user has moved the text cursor inside a password field and the
+      actual characters in the field are unknown. The word "character" in this string means a
+      letter, number, or other symbol, NOT a person.
+      Description: This is spoken to the user. [CHAR_LIMIT=NONE]
+     -->
+    <string name="template_password_traversed">Ký tự %1$d</string>
+
+    <!-- Window title used for announcing untitled window. -->
+    <string name="untitled_window">không có tiêu đề</string>
+
+    <!--
+    Source: An utterance template for announcing the shorten text feedback.
+    Description: This is spoken to the user. [CHAR LIMIT=NONE]
+    -->
+    <string name="template_shorten_text">%1$d ký tự từ: %2$s đến %3$s</string>
+    <!--
+          Source: An utterance template for announcing copy of text (during edit).
+          Description: This is spoken to the user. [CHAR LIMIT=NONE]
+        -->
+    <string name="template_text_copied">đã sao chép, %1$s</string>
+    <!--
+      Source: An utterance template for announcing a single upper-case (capital) letter.
+      Description: This is spoken to the user. May not be translatable for some languages. [CHAR LIMIT=NONE]
+
+      TODO: This string was moved to compositor's resource. We can remove it later.
+    -->
+    <string name="template_capital_letter">chữ hoa %1$s</string>
+    <!-- Replacement string used when collapsing multiple repeated characters which is spoken to the user.  For example, in the case where we're about to speak 10 equal signs, we use this string to format the phrase "10 equal sign" rather than speaking "equal sign equal sign equal sign..." -->
+    <string name="character_collapse_template"> %1$d %2$s﻿</string>
+    <!--
+      Source: An utterance template for announcing the current text-to-speech engine.
+      Description: This is spoken to the user. [CHAR LIMIT=NONE]
+    -->
+    <string name="template_current_tts_engine">Đang sử dụng %1$s</string>
+    <!-- Announced when the user changes reading mode to read an entire object at a time. -->
+    <string name="granularity_default">Mặc định</string>
+    <!-- Announced when the user changes reading mode to read a single character at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_character">Ký tự</string>
+    <!-- Announced when the user changes reading mode to read a single word at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_word">Từ</string>
+    <!-- Announced when the user changes reading mode to read a single line at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_line">Dòng</string>
+    <!-- Announced when the user changes reading mode to read a single paragraph at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_paragraph">Đoạn</string>
+    <!-- Announced when the user changes reading mode to read a single container at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_container">Vùng chứa</string>
+    <!-- Announced when the user changes reading mode to read a single window at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_window">Cửa sổ</string>
+    <!-- Announced when the user changes reading mode to read a single search result at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_search">Tìm kiếm trên màn hình</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_landmark">Địa danh</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section header at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_heading">Đầu đề</string>
+    <!-- Announced when the user changes reading mode in web content to read a single link at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_link">Đường liên kết</string>
+    <!-- Announced when the user changes reading mode in web content to read a single control at a time.
+      A control is an element on a web page which is either a form field (buttons, text fields, combo boxes, etc) or a link. [CHAR_LIMIT=NONE]
+    -->
+    <string name="granularity_web_control">Các thành phần điều khiển</string>
+    <!-- Announced when the user enters into navigating specialized web content such as tables or math. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_pseudo_web_special_content">Nội dung đặc biệt</string>
+    <!-- Announced when the user changes reading mode in web content to read a single visited link at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_visited_link">Đường liên kết đã truy cập</string>
+    <!-- Announced when the user changes reading mode in web content to read a single unvisited link at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_unvisited_link">Đường liên kết chưa truy cập</string>
+    <!-- Announced when the user changes reading mode in web content to read a single button at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_button">Nút</string>
+    <!-- Announced when the user changes reading mode in web content to read a single radio button at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_radio">Nút chọn</string>
+    <!-- Announced when the user changes reading mode in web content to read a single checkbox at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_checkbox">Hộp đánh dấu</string>
+    <!-- Announced when the user changes reading mode in web content to read a single edit field at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_editfield">Trường chỉnh sửa</string>
+    <!-- Announced when the user changes reading mode in web content to read a single focusable item at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_focusable">Mục có thể làm tâm điểm</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section heading 1 at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_h1">Tiêu đề 1</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section heading 2 at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_h2">Tiêu đề 2</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section heading 3 at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_h3">Tiêu đề 3</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section heading 4 at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_h4">Tiêu đề 4</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section heading 5 at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_h5">Tiêu đề 5</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section heading 6 at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_h6">Tiêu đề 6</string>
+    <!-- Announced when the user changes reading mode in web content to read a single image or video at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_graphic">Hình ảnh và video</string>
+    <!-- Announced when the user changes reading mode in web content to read a single list item at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_listitem">Mục trong danh sách</string>
+    <!-- Announced when the user changes reading mode in web content to read a single list at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_list">Danh sách</string>
+    <!-- Announced when the user changes reading mode in web content to read a single table at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_table">Bảng</string>
+    <!-- Announced when the user changes reading mode in web content to read a single combo box at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_web_combobox">Hộp kết hợp</string>
+
+    <!-- Announced when the user changes reading mode in web content to read a single section header at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_native_heading">Đầu đề</string>
+    <!-- Announced when the user changes navigation mode in native views to navigating a single control at a time.
+      A control is an element on the screen which is a form field (buttons, text fields, combo boxes, etc).
+      Currently only buttons and edit fields are considered. [CHAR_LIMIT=NONE]
+    -->
+    <string name="granularity_native_control">Các thành phần điều khiển</string>
+    <!-- Announced when the user changes navigation mode in native views to navigating a single link at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_native_link">Đường liên kết</string>
+    <!-- Announced when the user changes navigation mode to navigating a single row or column in a table at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_row_column">Hàng và cột</string>
+    <!-- Announced when the user changes navigation mode to navigating a single row in a table at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_row">Hàng</string>
+    <!-- Announced when the user changes navigation mode to navigating a single column in a table at a time. [CHAR_LIMIT=NONE] -->
+    <string name="granularity_column">Cột</string>
+
+    <!-- Announced for overlay window, example: picture-in-picture video. -->
+    <string name="template_overlay_window">%1$s ảnh trong ảnh</string>
+    <!-- Announced for the split screen mode in portrait screen. -->
+    <string name="template_split_screen_mode_portrait">%1$s ở trên cùng, %2$s ở dưới cùng</string>
+    <!-- Announced for split screen mode in Left-to-Right landscape screen. -->
+    <string name="template_split_screen_mode_landscape_ltr">%1$s ở bên trái, %2$s ở bên phải</string>
+    <!-- Announced for split screen mode in Right-to-Left landscape screen. -->
+    <string name="template_split_screen_mode_landscape_rtl">%1$s ở bên phải, %2$s ở bên trái</string>
+
+    <!--
+        Source: An utterance template for announcing the visible range of items within a list view.
+        Description: This is spoken to the user. [CHAR LIMIT=NONE]
+    -->
+    <!-- TODO: This template is used by both ScrollFeedbackManager and Compositor, clean up dependency if we move this string. -->
+    <string name="template_scroll_from_to_count">Hiển thị mục từ %1$d tới %2$d/%3$d.</string>
+    <!--
+        Source: An utterance template for announcing the visible item within a list view.
+        Description: This is spoken to the user. [CHAR LIMIT=NONE]
+    -->
+    <!-- TODO: This template is used by both ScrollFeedbackManager and Compositor, clean up dependency if we move this string. -->
+    <string name="template_scroll_from_count">Hiển thị mục %1$d/%2$d.</string>
+    <!--
+        Source: An utterance template for announcing the visible page inside a view pager.
+        This is used if the view pager's current page does not have a content description.
+        Description: This is spoken to the user. [CHAR LIMIT=NONE]
+    -->
+    <!-- TODO: This template is used by both ScrollFeedbackManager and Compositor, clean up dependency if we move this string. -->
+    <string name="template_viewpager_index_count">Trang %1$d trên %2$d</string>
+    <!--
+        Source: A shorter utterance template for announcing the visible page inside a view pager.
+        This is used if the view pager's current page has a content description.
+        Description: This is spoken to the user. [CHAR LIMIT=NONE]
+    -->
+    <!-- TODO: This template is used by both ScrollFeedbackManager and Compositor, clean up dependency if we move this string. -->
+    <string name="template_viewpager_index_count_short">%1$d / %2$d</string>
+
+    <!--
+        Template for a row in a dialog containing information on a URL. The dialog_text is the
+        hyperlinked text visible to the user before the dialog is opened, and dialog_url is the URL
+        pathway. This string should not be used if dialog_text equals dialog_url. The text will be
+        truncated if the text exceeds more than one line on the dialog.
+    -->
+    <string name="url_dialog_table">%1$s (%2$s)</string>
+
+    <!-- Label for exit button for a scrim.[CHAR_LIMIT=NONE] -->
+    <string name="exit_scrim">Thoát</string>
+
+    <!-- Label for settings button for the speech bubble overlay.[CHAR_LIMIT=NONE] -->
+    <string name="settings_button_description">Cài đặt</string>
+    <!-- Label for close button for the speech bubble overlay.[CHAR_LIMIT=NONE] -->
+    <string name="close_button_description">Đóng</string>
+    <!-- Label for menu button for the speech bubble overlay.[CHAR_LIMIT=NONE] -->
+    <string name="menu_button_description" translatable="false">Menu</string>
+
+    <!-- Announced when the window shows.[CHAR_LIMIT=NONE]-->
+    <string name="show_keyboard_window">Đang hiển thị %1$s</string>
+    <!-- Announced when the window hidden.[CHAR_LIMIT=NONE] -->
+    <string name="hide_keyboard_window">đã ẩn bàn phím</string>
+
+    <!-- Announced when toggle voice feedback is on.[CHAR_LIMIT=NONE] -->
+    <string name="function_on">Đã bật tính năng phản hồi bằng giọng nói</string>
+    <!-- Announced when toggle voice feedback is off.[CHAR_LIMIT=NONE] -->
+    <string name="function_off">Đã tắt tính năng phản hồi bằng giọng nói</string>
+
+    <!-- Announced the name of an emoji. [CHAR_LIMIT=NONE] -->
+    <string name="emoji_name">Biểu tượng cảm xúc %1$s</string>
+
+    <!-- Label for bold text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_bold">đậm</string>
+    <!-- Label for italic text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_italic">nghiêng</string>
+    <!-- Label for bold italic text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_bold_italic">đậm nghiêng</string>
+    <!-- Label for underline text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_underline">gạch chân</string>
+    <!-- Label for strikethrough text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_strikethrough">gạch ngang chữ</string>
+    <!-- Label for font color text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_foreground_color">màu</string>
+    <!-- Label for background color text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_background_color">màu nền</string>
+    <!-- Label for font size bigger text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_size_bigger">cỡ lớn hơn</string>
+    <!-- Label for font size smaller text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_size_smaller">cỡ nhỏ hơn</string>
+    <string name="format_size_in_px">%1$d điểm ảnh</string>
+    <!-- Label for font family text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_font_family">bộ phông chữ %1$s</string>
+    <!-- Announced when starting text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_start">bắt đầu %1$s</string>
+    <!-- Announced when ending text formatting.[CHAR_LIMIT=40] -->
+    <string name="format_end">kết thúc %1$s</string>
+    <!-- Announced the text formatting position in characters.[CHAR_LIMIT=NONE]-->
+    <string name="format_position">%1$s từ ký tự %2$d đến %3$d, %4$s</string>
+    <!-- Label for color white.[CHAR_LIMIT=40] -->
+    <string name="color_white">trắng</string>
+    <!-- Label for color light grey.[CHAR_LIMIT=40] -->
+    <string name="color_light_grey">xám nhạt</string>
+    <!-- Label for color grey.[CHAR_LIMIT=40] -->
+    <string name="color_grey">xám</string>
+    <!-- Label for color dark grey.[CHAR_LIMIT=40] -->
+    <string name="color_dark_grey">xám đen</string>
+    <!-- Label for color black.[CHAR_LIMIT=40] -->
+    <string name="color_black">đen</string>
+    <!-- Label for color pink.[CHAR_LIMIT=40] -->
+    <string name="color_pink">hồng</string>
+    <!-- Label for color red.[CHAR_LIMIT=40] -->
+    <string name="color_red">đỏ</string>
+    <!-- Label for color orange.[CHAR_LIMIT=40] -->
+    <string name="color_orange">cam</string>
+    <!-- Label for color brown.[CHAR_LIMIT=40] -->
+    <string name="color_brown">nâu</string>
+    <!-- Label for color yellow.[CHAR_LIMIT=40] -->
+    <string name="color_yellow">vàng</string>
+    <!-- Label for color olive.[CHAR_LIMIT=40] -->
+    <string name="color_olive">xanh ôliu</string>
+    <!-- Label for color yellow green.[CHAR_LIMIT=40] -->
+    <string name="color_yellow_green">vàng chanh</string>
+    <!-- Label for color green.[CHAR_LIMIT=40] -->
+    <string name="color_green">xanh lục</string>
+    <!-- Label for color cyan.[CHAR_LIMIT=40] -->
+    <string name="color_cyan">màu lục lam</string>
+    <!-- Label for color blue.[CHAR_LIMIT=40] -->
+    <string name="color_blue">xanh dương</string>
+    <!-- Label for color purple.[CHAR_LIMIT=40] -->
+    <string name="color_purple">tím</string>
+
+</resources>

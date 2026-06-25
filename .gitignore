@@ -1,0 +1,40 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+
+# Android Studio files
+.idea/
+*.iml
+.navigation/
+
+# Built outputs in subdirectories
+source/build/
+talkback/build/
+utils/build/
+braille/brailledisplay/build/
+braille/brailledisplayanalytics/build/
+braille/brailleime/build/
+braille/brailleimeanalytics/build/
+braille/braillecommon/build/
+braille/brailleinterfaces/build/
+braille/brailletranslate/build/
+braille/braillebrltty/build/
+materialpreference/build/
+materialpreferencecompose/build/
+
+# Exclude talkback folder as it is only for reference
+talkback/
+
+# Exclude generated APKs inside build folders, but KEEP ViTalk-debug.apk at the root
+**/build/outputs/apk/
+**/build/outputs/aar/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
