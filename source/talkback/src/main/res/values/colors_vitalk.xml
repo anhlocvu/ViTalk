@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ViTalk Custom UI Colors -->
+    <color name="vitalk_bg_dark">#121212</color>
+    <color name="vitalk_card_bg">#1E1E1E</color>
+    <color name="vitalk_primary">#4CAF50</color>
+    <color name="vitalk_accent">#81C784</color>
+    <color name="vitalk_text_primary">#FFFFFF</color>
+    <color name="vitalk_text_secondary">#B0BEC5</color>
+    <color name="vitalk_divider">#2C2C2C</color>
+    <color name="vitalk_button_hover">#33FFFFFF</color>
+</resources>
