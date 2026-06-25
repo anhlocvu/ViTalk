@@ -70,6 +70,6 @@ Dự án ViTalk được phân phối dưới giấy phép **Apache License 2.0*
 
 * **Đơn vị phát triển:** Technology Entertainment
 * **Trưởng dự án:** Lc_Boy (Vũ Anh Lộc)
-* **Email:** [lcboy.entertainment@gmail.com](mailto:lcboy.entertainment@gmail.com)
+* **Email:** [locvuu2105@gmail.com](mailto:locvuu2105@gmail.com)
 
 *ViTalk - Trình đọc màn hình thân thiện và tối ưu nhất cho người khiếm thị Việt Nam!*
