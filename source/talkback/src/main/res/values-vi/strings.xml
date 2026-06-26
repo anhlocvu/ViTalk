@@ -94,7 +94,7 @@
   <string name="title_pref_category_general">Thiết lập chung</string>
   <string name="title_pref_category_advanced">Thiết lập nâng cao</string>
   <string name="title_pref_category_others">Tính năng mở rộng</string>
-  <string name="title_pref_category_tutorial_and_help">Trợ giúp &amp; Phản hồi</string>
+  <string name="title_pref_category_tutorial_and_help">Hướng dẫn sử dụng</string>
   <string name="title_pref_category_reduce_latency_summary">Những chế độ cài đặt này có thể giảm độ trễ cho thông báo của ViTalk</string>
   <string name="reset_latency_settings_title">Đặt lại mọi chế độ cài đặt độ trễ</string>
   <string name="title_pref_single_tap">Kích hoạt bằng một chạm</string>
@@ -116,10 +116,10 @@
   <string name="pref_category_selector_menu_summary_single_finger">Để dùng trình đơn điều khiển chức năng đọc, hãy vuốt lên rồi vuốt xuống.</string>
   <string name="title_pref_manage_keyboard_shortcuts">Thiết lập phím tắt bàn phím vật lý</string>
   <string name="title_pref_export_custom_labels">Xuất nhãn tùy chỉnh</string>
-  <string name="title_pref_play_store">Mở ViTalk tại Cửa hàng Play</string>
+  <string name="title_pref_play_store">Xem thông tin phiên bản ViTalk</string>
   <string name="summary_pref_play_store">Phiên bản ViTalk hiện tại: %1$s</string>
   <string name="title_pref_help_and_feedback">Trợ giúp và phản hồi</string>
-  <string name="title_pref_gup">Liên hệ với Nhóm hỗ trợ người khuyết tật của Google</string>
+  <string name="title_pref_gup">Liên hệ với Technology Entertainment</string>
   <string name="subtitle_pref_gup">Nhận trợ giúp khi dùng ViTalk hoặc báo cáo vấn đề</string>
   <string name="pref_item_licenses">Giấy phép nguồn mở</string>
   <string name="title_pref_tutorial">Hướng dẫn</string>
@@ -386,15 +386,15 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="dialog_message_turn_on_image_description">Sau khi bật tính năng tự động mô tả hình ảnh hoặc tính năng mô tả chi tiết về hình ảnh, bạn có thể thử lại</string>
   <string name="title_pref_detailed_image_description">Mô tả chi tiết về hình ảnh</string>
   <string name="summary_pref_ai_description">Nghe nội dung mô tả dài hơn khi bạn chọn \"%1$s\" trên trình đơn ViTalk</string>
-  <string name="dialog_message_detailed_ai_description">Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Google xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
-  <string name="dialog_message_on_device_ai_description">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nCác hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi cho Google. \n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với <a href="https://policies.google.com/terms/generative-ai">Điều khoản dịch vụ của Google</a>.</string>
+  <string name="dialog_message_detailed_ai_description">Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Technology Entertainment xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_on_device_ai_description">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nCác hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi ra bên ngoài. \n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với Điều khoản dịch vụ của Technology Entertainment.</string>
   <string name="enable_gemini">Bật</string>
   <string name="powered_by_gemini">Sử dụng AI tạo sinh</string>
   <string name="detailed_image_description_ongoing_hint">Đang tải nội dung mô tả</string>
   <string name="detailed_image_description_result_prefix">Đã phát hiện: Hình ảnh. %1$s</string>
   <string name="dialog_title_on_device_ai_download_needed">Bạn cần tải mô hình AI xuống để dùng tính năng Tự động mô tả hình ảnh</string>
-  <string name="dialog_message_on_device_detailed_ai_promotion">Hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi cho Google.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
-  <string name="dialog_message_gen_ai_tos_link">Điều khoản dịch vụ của Google</string>
+  <string name="dialog_message_on_device_detailed_ai_promotion">Hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi ra bên ngoài.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_gen_ai_tos_link">Điều khoản dịch vụ của Technology Entertainment</string>
   <string name="message_aifeature_downloading">Đang tải mô hình AI xuống. Quá trình này có thể mất một chút thời gian. Bạn sẽ được thông báo khi quá trình tải xuống hoàn tất.</string>
   <string name="message_aifeature_downloading_with_progress">Vẫn đang tải xuống. Đã tải xuống %1$d/%2$d MB.</string>
   <string name="message_aifeature_download_complete">Đã tải mô hình AI xuống. ViTalk giờ đây có thể mô tả hình ảnh.</string>
@@ -417,9 +417,9 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="title_pref_enable_auto_icon_detection">Tất cả biểu tượng</string>
   <string name="title_pref_enable_auto_icon_detection_unlabelled_only">Chỉ những biểu tượng chưa gắn nhãn</string>
   <string name="title_pref_disable_auto_icon_detection">Không mô tả biểu tượng</string>
-  <string name="dialog_message_detailed_ai_promotion">Tính năng Mô tả chi tiết về hình ảnh sử dụng công nghệ AI tạo sinh. Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Google xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bạn có thể tắt tính năng Mô tả chi tiết về hình ảnh bất cứ lúc nào trong phần cài đặt ViTalk.\n\nBằng cách tiếp tục, bạn đồng ý với %1$s.</string>
-  <string name="dialog_message_screen_overview_promotion">Khi bạn dùng tính năng này, ảnh chụp màn hình của bạn sẽ được gửi cho Google để xử lý và sau đó sẽ bị xoá. Quá trình xử lý có thể mất vài giây.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn có lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
-  <string name="dialog_message_on_device_ai_model_download">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nHình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi cho Google.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_detailed_ai_promotion">Tính năng Mô tả chi tiết về hình ảnh sử dụng công nghệ AI tạo sinh. Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Technology Entertainment xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bạn có thể tắt tính năng Mô tả chi tiết về hình ảnh bất cứ lúc nào trong phần cài đặt ViTalk.\n\nBằng cách tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_screen_overview_promotion">Khi bạn dùng tính năng này, ảnh chụp màn hình của bạn sẽ được gửi cho Technology Entertainment để xử lý và sau đó sẽ bị xoá. Quá trình xử lý có thể mất vài giây.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn có lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_on_device_ai_model_download">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nHình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi ra bên ngoài.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
   <string name="title_pref_enable_gemini_support">Bật</string>
   <string name="title_pref_disable_gemini_support">Tắt</string>
   <string name="summary_pref_gemini_support_enabled">Đã bật Gemini</string>
@@ -640,7 +640,7 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="summary_summarize_view">Đọc to bản tóm tắt chế độ xem</string>
   <string name="summary_typo_suggestions">Hiện khi con trỏ ở vị trí có lỗi chính tả</string>
   <string name="summary_cache_keyboard_keys">ViTalk tải sẵn thông báo để giảm độ trễ khi bạn nhập</string>
-  <string name="summary_cache_keyboard_keys_disabled">Dùng ứng dụng Chuyển văn bản sang lời nói của Google để sử dụng tính năng này</string>
+  <string name="summary_cache_keyboard_keys_disabled">Dùng ứng dụng Chuyển văn bản sang lời nói mặc định để sử dụng tính năng này</string>
   <string name="value_direction_down">xuống</string>
   <string name="value_direction_down_and_right">xuống rồi sang phải</string>
   <string name="title_pref_shortcut_up">Vuốt lên</string>
@@ -890,7 +890,7 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="dialog_message_pass_through_mode">Khi nghe thấy tiếng chuông, bạn có thể sử dụng cử chỉ hệ thống mà ViTalk không hỗ trợ. Đây là cử chỉ gạt qua.</string>
   <string name="dialog_title_voice_input_download">Cập nhật Gboard để sử dụng tính năng nhập bằng giọng nói</string>
   <string name="dialog_message_voice_input_download">Giờ đây, bạn có thể nhấn đúp bằng 2 ngón tay để bật tính năng nhập bằng giọng nói bất cứ khi nào Gboard đang hoạt động. Để dùng cử chỉ này, hãy cập nhật Gboard lên phiên bản mới nhất.</string>
-  <string name="label_update_gboard">Cập nhật trong Google Play</string>
+  <string name="label_update_gboard">Cập nhật trong Cửa hàng ứng dụng</string>
   <string name="announcement_voice_input_when_gboard_not_onscreen">Mở Gboard để dùng tính năng nhập văn bản bằng giọng nói</string>
   <string name="hint_pass_through_mode_on_for_keyboard_shortcuts">Bỏ qua thao tác nhấn phím tiếp theo</string>
   <string name="screen_search_hint_type_search_screen">Tìm trên màn hình</string>
@@ -940,7 +940,7 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="training_navigate_up">Di chuyển lên</string>
   <string name="training_tip">Mẹo</string>
   <string name="tv_training_overview_step_title">Cách thức hoạt động của ViTalk</string>
-  <string name="tv_training_overview_step_summary">ViTalk là một trình đọc màn hình của Google. Công cụ này đọc thành tiếng văn bản trên màn hình và cung cấp phản hồi bằng giọng nói để bạn có thể sử dụng thiết bị mà không cần nhìn vào màn hình.\n\nKhi tính năng ViTalk đã bật, một mục được chọn trên màn hình sẽ được đọc thành tiếng, đôi khi còn có thêm ngữ cảnh hoặc thông tin bổ sung.\n\nHãy nhấn Chọn để tiếp tục. Nút Chọn nằm ở chính giữa bàn phím di chuyển. Nút này là nút lớn hình tròn nằm ở phần đầu điều khiển từ xa.</string>
+  <string name="tv_training_overview_step_summary">ViTalk là một trình đọc màn hình dành cho người Việt của Technology Entertainment. Công cụ này đọc thành tiếng văn bản trên màn hình và cung cấp phản hồi bằng giọng nói để bạn có thể sử dụng thiết bị mà không cần nhìn vào màn hình.\n\nKhi tính năng ViTalk đã bật, một mục được chọn trên màn hình sẽ được đọc thành tiếng, đôi khi còn có thêm ngữ cảnh hoặc thông tin bổ sung.\n\nHãy nhấn Chọn để tiếp tục. Nút Chọn nằm ở chính giữa bàn phím di chuyển. Nút này là nút lớn hình tròn nằm ở phần đầu điều khiển từ xa.</string>
   <string name="tv_training_remote_step_title">Sử dụng thiết bị điều khiển từ xa của bạn</string>
   <string name="tv_training_remote_step_summary">Di chuyển quanh màn hình bằng nút di chuyển hình tròn nằm ở phần đầu điều khiển từ xa. Để chọn, hãy nhấn vào giữa nút di chuyển ở phần đầu điều khiển từ xa.\n\nNút quay lại nằm ở hàng thứ hai phía bên trái. Nút Trợ lý thoại nằm ở bên phải.\n\nNút màn hình chính nằm ở hàng thứ ba phía bên trái. Nút tắt tiếng nằm ở bên phải.\n\nPhím tắt YouTube nằm ở hàng thứ tư bên trái. Bên phải là phím tắt Netflix.\n\nỞ hàng dưới cùng có 2 nút nhỏ. Nút nguồn nằm ở phía bên trái. Nút ở bên phải dùng để mở trình đơn cổng vào của TV.\n\nCác nút âm lượng nằm ở bên phải điều khiển từ xa.\n\nHãy nhấn Chọn để tiếp tục.</string>
   <string name="tv_training_shortcut_step_title">Phím tắt ViTalk</string>
@@ -981,11 +981,11 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="update_welcome_talkback_16.1">Bản cập nhật ViTalk này hỗ trợ tính năng Mô tả nội dung trên màn hình bằng nhiều ngôn ngữ hơn và các cải tiến khác về chất lượng giúp bạn dễ sử dụng ViTalk hơn.\n\nBạn sẽ tìm hiểu thêm về những thay đổi này ở các màn hình tiếp theo.\n\nBạn có thể vào phần Cài đặt ViTalk &gt; Tính năng mới trong ViTalk để xem thông tin này sau.</string>
   <string name="update_welcome_talkback_16.1_tts">Bản cập nhật ViTalk này hỗ trợ tính năng Mô tả nội dung trên màn hình bằng nhiều ngôn ngữ hơn và các cải tiến khác về chất lượng giúp bạn dễ sử dụng ViTalk hơn.\n\nBạn sẽ tìm hiểu thêm về những thay đổi này ở các màn hình tiếp theo.\n\nBạn có thể vào phần Cài đặt ViTalk rồi chọn Tính năng mới trong ViTalk để xem lại thông tin này sau.</string>
   <string name="describe_screen_and_qna_title">Ngôn ngữ mới cho tính năng Mô tả nội dung trên màn hình và Hỏi Gemini</string>
-  <string name="describe_screen_and_qna_content">Tính năng Mô tả nội dung trên màn hình và Hỏi Gemini hiện hỗ trợ thêm nhiều ngôn ngữ. &lt;a href=\"https://support.google.com/accessibility/android?p=vitalk_16_1\"&gt;Tìm hiểu thêm trong trung tâm trợ giúp&lt;/a&gt;.</string>
+  <string name="describe_screen_and_qna_content">Tính năng Mô tả nội dung trên màn hình và Hỏi Gemini hiện hỗ trợ thêm nhiều ngôn ngữ.</string>
   <string name="shortcut_for_dictation_title">Phím tắt cho tính năng nhập liệu bằng giọng nói</string>
   <string name="shortcut_for_dictation_content">Giờ đây, khi dùng Gboard, bạn có thể nhấn đúp bằng 2 ngón tay để bắt đầu hoặc dừng tính năng nhập liệu bằng giọng nói.
 &lt;br&gt;
-&lt;br&gt;Hãy đảm bảo rằng bạn đang dùng phiên bản mới nhất của &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin\"&gt;Gboard trên Google Play&lt;/a&gt;.</string>
+&lt;br&gt;Hãy đảm bảo rằng bạn đang dùng phiên bản mới nhất của Gboard.</string>
   <string name="shortcut_for_dictation_content_without_google_play">Khi Gboard xuất hiện trên màn hình, bạn có thể nhấn đúp bằng 2 ngón tay để bắt đầu nhập văn bản bằng giọng nói rồi nhấn đúp bằng 2 ngón tay để dừng.</string>
   <string name="keyboard_title">Bàn phím</string>
   <string name="keyboard_content">Hiện đã có \"Sơ đồ bàn phím nâng cao\" cho bàn phím của ViTalk cùng nhiều lệnh và phím tắt mới. Tính năng cải tiến này bao gồm \"chế độ duyệt web\" để di chuyển hiệu quả hơn trên web, đồng thời giúp những người dùng ViTalk bằng bàn phím vật lý dễ di chuyển và tương tác hơn. Bạn có thể chuyển sang \"Sơ đồ bàn phím nâng cao\" trong phần Cài đặt ViTalk &gt; Cài đặt nâng cao &gt; Phím tắt.</string>
@@ -1171,10 +1171,10 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="screen_search_action_button_3_text">Hành động 3</string>
   <string name="making_calls_title">Gọi điện và nhận cuộc gọi</string>
   <string name="making_calls_text">Bạn có thể gọi cho một người thân, bạn bè hoặc doanh nghiệp bằng ứng dụng điện thoại trên màn hình chính.\n\nKhi nhận được một cuộc gọi, bạn có thể nhấn đúp bằng 2 ngón tay để trả lời cuộc gọi đó.</string>
-  <string name="making_calls_tips">Bạn cũng có thể yêu cầu Trợ lý Google gọi đến một số điện thoại hoặc tên ai đó trong danh bạ của bạn</string>
+  <string name="making_calls_tips">Bạn cũng có thể yêu cầu trợ lý giọng nói gọi đến một số điện thoại hoặc tên ai đó trong danh bạ của bạn</string>
   <string name="sending_messages_title">Gửi tin nhắn</string>
   <string name="sending_messages_text">Để gửi tin nhắn, hãy chuyển đến màn hình chính và tìm một ứng dụng nhắn tin</string>
-  <string name="sending_message_tips">Bạn cũng có thể yêu cầu Trợ lý Google gửi tin nhắn đến một người liên hệ hoặc số điện thoại</string>
+  <string name="sending_message_tips">Bạn cũng có thể yêu cầu trợ lý giọng nói gửi tin nhắn đến một người liên hệ hoặc số điện thoại</string>
   <string name="reading_web_emails_title">Đọc các trang web và email</string>
   <string name="reading_web_emails_text">Chế độ đọc giúp bạn thao tác, nghe và đọc nội dung dài dễ dàng hơn. Bạn có thể thay đổi cỡ chữ và độ tương phản, yêu cầu đọc to văn bản cũng như thực hiện nhiều thao tác khác.</string>
   <string name="get_the_app_button">Tải ứng dụng</string>
@@ -1340,7 +1340,7 @@ Không dùng bất kỳ định dạng đánh dấu nào trong câu trả lời.
   <string name="confirm_download_icon_detection_title">Cần tải nội dung mô tả tự động về biểu tượng</string>
   <string name="confirm_download_subtitle_via_wifi">%1$d MB</string>
   <string name="confirm_download_subtitle_via_mobile_data">%1$d MB sử dụng dữ liệu di động. Bạn có thể bị tính phí dữ liệu.</string>
-  <string name="confirm_download_icon_detection_message">Bạn sẽ nghe thấy một mô tả ngắn khi lấy tiêu điểm vào một biểu tượng, chẳng hạn như nút trong ứng dụng.\n\nHình ảnh được xử lý trên thiết bị của bạn và sẽ không bao giờ được gửi cho Google.</string>
+  <string name="confirm_download_icon_detection_message">Bạn sẽ nghe thấy một mô tả ngắn khi lấy tiêu điểm vào một biểu tượng, chẳng hạn như nút trong ứng dụng.\n\nHình ảnh được xử lý trên thiết bị của bạn và sẽ không bao giờ gửi ra bên ngoài.</string>
   <string name="confirm_download_image_description_title">Cần tải mô hình AI xuống để dùng tính năng tự động mô tả hình ảnh</string>
   <string name="confirm_download_image_description_message">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ</string>
   <string name="confirm_download_all_image_captioning_title">Cần tải xuống để dùng tính năng tự động mô tả hình ảnh và biểu tượng</string>
@@ -1385,8 +1385,8 @@ Không dùng bất kỳ định dạng đánh dấu nào trong câu trả lời.
   <string name="gemini_disable_dialog_message">Tìm hiểu nội dung trên màn hình với Gemini</string>
   <string name="disable_gemini_dialog_subtext">Bật để kích hoạt tính năng Tìm hiểu nội dung trên màn hình với Gemini</string>
   <string name="ai_services_update_dialog_title">Cập nhật ứng dụng %1$s để nghe nội dung mô tả về hình ảnh</string>
-  <string name="ai_services_update_dialog_message">Để nghe nội dung mô tả về hình ảnh, hãy tải phiên bản mới nhất của %1$s từ Google Play.\n\nSau khi quá trình tải xuống hoàn tất, hãy quay lại phần cài đặt của ViTalk và bật lại tính năng tự động mô tả hình ảnh.</string>
-  <string name="ai_services_update_dialog_button_text">Truy cập Google Play</string>
+  <string name="ai_services_update_dialog_message">Để nghe nội dung mô tả về hình ảnh, hãy tải phiên bản mới nhất của %1$s từ Cửa hàng ứng dụng.\n\nSau khi quá trình tải xuống hoàn tất, hãy quay lại phần cài đặt của ViTalk và bật lại tính năng tự động mô tả hình ảnh.</string>
+  <string name="ai_services_update_dialog_button_text">Truy cập Cửa hàng ứng dụng</string>
   <string name="aicore_app_name">AICore</string>
   <string name="astrea_app_name">Dịch vụ điện toán riêng tư</string>
   <string name="gemini_error_message">Đã xảy ra lỗi. Hãy thử lại.</string>

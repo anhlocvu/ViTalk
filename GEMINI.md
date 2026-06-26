@@ -208,4 +208,31 @@ Các hạng mục đã hoàn thành:
 6. **Biên dịch thành công APK hoàn chỉnh:**
    * Chạy thành công tiến trình Gradle build và xuất ra tệp APK hoàn chỉnh tại [ViTalk-debug.apk](file:///D:/android_app/ViTalk/ViTalk-debug.apk) ở thư mục gốc của dự án để người dùng cài đặt thử nghiệm trực tiếp.
 
+### Phiên làm việc: 26/06/2026 - Tối ưu hóa menu Cài đặt và xóa bỏ tham chiếu Google
+
+1. **Xóa bỏ các mục menu không liên quan trong Cài đặt ViTalk:**
+   * Xóa mục **"Tính năng mới"** (`pref_new_feature_in_talkback_entry_point_key`) ở đầu trang cài đặt — đây là mục onboarding của TalkBack gốc, không liên quan đến ViTalk.
+   * Xóa mục khảo sát (`pref_survey_setting_entry_point_key`) ở đầu trang cài đặt.
+   * Xóa toàn bộ **danh mục "Trợ giúp và hỗ trợ"** bao gồm: nút "Trợ giúp & phản hồi", nút "Liên hệ Nhóm người khuyết tật Google" và nút dẫn đến **Google Play Store** (vì link dẫn đến TalkBack của Google, không phải ViTalk).
+   * Đổi tên tiêu đề danh mục `title_pref_category_tutorial_and_help` thành **"Hướng dẫn sử dụng"** (thay vì "Hướng dẫn và trợ giúp").
+   * Ẩn hoàn toàn nút Play Store trong `AdvancedSettingFragment.java` bằng cách sửa hàm `updatePlayStorePreference()` để luôn ẩn preference này, tránh người dùng bị dẫn đến TalkBack trên Google Play.
+
+2. **Thay thế tham chiếu thương hiệu Google bằng Technology Entertainment:**
+   * Trong các hộp thoại **mô tả hình ảnh bằng AI** (cloud-based): Đổi *"...gửi cho Google xử lý..."* thành *"...gửi cho Technology Entertainment xử lý..."*.
+   * Trong các hộp thoại **mô tả hình ảnh cục bộ** (on-device): Đổi *"...không bao giờ được gửi cho Google..."* thành *"...không bao giờ được gửi ra bên ngoài..."*.
+   * Đổi chuỗi **"Điều khoản dịch vụ của Google"** thành **"Điều khoản dịch vụ của Technology Entertainment"** trong các dialog AI.
+   * Đổi **"Liên hệ Nhóm hỗ trợ người khuyết tật của Google"** thành **"Liên hệ Technology Entertainment"**.
+   * Đổi chuỗi **"ViTalk là một trình đọc màn hình của Google"** (xuất hiện trong hướng dẫn TV) thành **"ViTalk là một trình đọc màn hình dành cho người Việt của Technology Entertainment"**.
+
+3. **Thay thế tham chiếu Google Play Store bằng trung tính hơn:**
+   * Đổi các nhãn dẫn đến Google Play (cập nhật Gboard, tải AI services) sang **"Cửa hàng ứng dụng"** — trung tính và không nêu thương hiệu Google.
+   * Đổi chuỗi nhãn nút cập nhật Gboard **"Cập nhật trong Google Play"** thành **"Cập nhật trong Cửa hàng ứng dụng"**.
+   * Đổi **"Cập nhật trong Google Play"** thành **"Cập nhật trong Cửa hàng ứng dụng"** và **"Truy cập Google Play"** thành **"Truy cập Cửa hàng ứng dụng"** trong dialog AI Services.
+   * Bỏ link support.google.com trong nội dung tính năng mới (chỉ giữ text, không link).
+
+4. **Việt hóa các gợi ý liên quan đến Trợ lý:**
+   * Đổi **"Trợ lý Google"** thành **"trợ lý giọng nói"** trong hai chuỗi gợi ý hướng dẫn `making_calls_tips` và `sending_message_tips`.
+   * Đổi **"Dùng ứng dụng Chuyển văn bản sang lời nói của Google"** thành **"Dùng ứng dụng Chuyển văn bản sang lời nói mặc định"**.
+
+   Tất cả thay đổi đã được áp dụng cho cả hai tệp: tài nguyên mặc định (`values/strings.xml`) và tài nguyên tiếng Việt (`values-vi/strings.xml`) để đồng bộ hoàn toàn.
 

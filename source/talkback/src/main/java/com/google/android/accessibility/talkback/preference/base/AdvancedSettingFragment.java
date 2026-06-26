@@ -221,15 +221,9 @@ public class AdvancedSettingFragment extends TalkbackBaseFragment {
   }
 
   private void updatePlayStorePreference() {
-    if (SettingsUtils.allowLinksOutOfSettings(context) || FormFactorUtils.isAndroidTv()) {
-      // We should never try to open the play store in WebActivity.
-      showTalkBackVersion();
-      assignPlayStoreIntentToPreference();
-    } else {
-      // During setup, do not allow access to web.
-      PreferenceSettingsUtils.hidePreference(
-          context, getPreferenceScreen(), R.string.pref_play_store_key);
-    }
+    // ViTalk: Ẩn nút Play Store vì link dẫn đến TalkBack của Google, không phải ViTalk
+    PreferenceSettingsUtils.hidePreference(
+        context, getPreferenceScreen(), R.string.pref_play_store_key);
   }
 
   @VisibleForTesting

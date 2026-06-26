@@ -392,7 +392,7 @@
     <!-- Category for other features. [CHAR LIMIT=40] -->
     <string name="title_pref_category_others">Tính năng khác</string>
     <!-- Category for tutorial & help. [CHAR LIMIT=40] -->
-    <string name="title_pref_category_tutorial_and_help">Hướng dẫn và trợ giúp</string>
+    <string name="title_pref_category_tutorial_and_help">Hướng dẫn sử dụng</string>
     <!-- Category summary for reduce latency. [CHAR LIMIT=NONE] -->
     <string name="title_pref_category_reduce_latency_summary">Những chế độ cài đặt này có thể giảm độ trễ cho thông báo của ViTalk</string>
     <!-- Label for the reset latency settings. [CHAR LIMIT=NONE]-->
@@ -463,7 +463,7 @@
     <!-- The preference title of Help & feedback [CHAR_LIMIT=NONE]-->
     <string name="title_pref_help_and_feedback">Trợ giúp và phản hồi</string>
     <!-- The preference title of GUP support [CHAR_LIMIT=NONE]-->
-    <string name="title_pref_gup">Liên hệ với Nhóm hỗ trợ người khuyết tật của Google</string>
+    <string name="title_pref_gup">Liên hệ với Technology Entertainment</string>
     <!-- The preference subtitle of GUP support [CHAR_LIMIT=NONE]-->
     <string name="subtitle_pref_gup">Nhận trợ giúp khi dùng ViTalk hoặc báo cáo vấn đề</string>
     <!-- The label of a settings item that displays legal information about the licenses used in this app. [CHAR LIMIT=NONE] -->
@@ -1195,10 +1195,10 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <string name="summary_pref_ai_description">Nghe nội dung mô tả dài hơn khi bạn chọn \"%1$s\" trên trình đơn ViTalk</string>
 
   <!-- Message for dialog shown when a user wants to enable detailed image description. [CHAR LIMIT=NONE]  -->
-  <string name="dialog_message_detailed_ai_description">Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Google xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_detailed_ai_description">Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Technology Entertainment xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
 
   <!-- Message for dialog shown when a user wants to enable detailed image description. [CHAR LIMIT=NONE]  -->
-  <string name="dialog_message_on_device_ai_description">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nCác hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi cho Google. \n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với <a href="https://policies.google.com/terms/generative-ai">Điều khoản dịch vụ của Google</a>.</string>
+  <string name="dialog_message_on_device_ai_description">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nCác hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi ra bên ngoài. \n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với Điều khoản dịch vụ của Technology Entertainment.</string>
 
   <!-- Click the button will open the instruction activity that educate the users. [CHAR LIMIT=40]-->
   <string name="enable_gemini">Bật</string>
@@ -1212,10 +1212,10 @@ Nếu độ trễ ở mức dưới 0,3 giây, thao tác nhấn đúp để kíc
   <!-- Dialog title for on-device image captioning model download.  -->
   <string name="dialog_title_on_device_ai_download_needed">Bạn cần tải mô hình AI xuống để dùng tính năng Tự động mô tả hình ảnh</string>
   <!-- -->
-  <string name="dialog_message_on_device_detailed_ai_promotion">Hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi cho Google.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_on_device_detailed_ai_promotion">Hình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi ra bên ngoài.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
 
   <!-- Message for dialog shown when a user wants to enable detailed image description. [CHAR LIMIT=NONE]  -->
-  <string name="dialog_message_gen_ai_tos_link">Điều khoản dịch vụ của Google</string>
+  <string name="dialog_message_gen_ai_tos_link">Điều khoản dịch vụ của Technology Entertainment</string>
 
   <!-- Message for AI feature downloading without the download progress. [CHAR LIMIT=NONE]  -->
   <string name="message_aifeature_downloading">Đang tải mô hình AI xuống. Quá trình này có thể mất một chút thời gian. Bạn sẽ được thông báo khi quá trình tải xuống hoàn tất.</string>
@@ -1337,13 +1337,13 @@ Description: Explain that the feature is enabled for all images. [CHAR_LIMIT=NON
   -->
   <string name="title_pref_disable_auto_icon_detection">Không mô tả biểu tượng</string>
   <!-- Message for dialog shown when a user wants to enable detailed image description. [CHAR LIMIT=NONE]  -->
-  <string name="dialog_message_detailed_ai_promotion">Tính năng Mô tả chi tiết về hình ảnh sử dụng công nghệ AI tạo sinh. Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Google xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bạn có thể tắt tính năng Mô tả chi tiết về hình ảnh bất cứ lúc nào trong phần cài đặt ViTalk.\n\nBằng cách tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_detailed_ai_promotion">Tính năng Mô tả chi tiết về hình ảnh sử dụng công nghệ AI tạo sinh. Khi bạn dùng tính năng này, những hình ảnh đã chọn sẽ được gửi cho Technology Entertainment xử lý và sau đó sẽ bị xoá.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bạn có thể tắt tính năng Mô tả chi tiết về hình ảnh bất cứ lúc nào trong phần cài đặt ViTalk.\n\nBằng cách tiếp tục, bạn đồng ý với %1$s.</string>
 
   <!-- Message for dialog shown when a user wants to enable screen description. [CHAR LIMIT=NONE]  -->
-  <string name="dialog_message_screen_overview_promotion">Khi bạn dùng tính năng này, ảnh chụp màn hình của bạn sẽ được gửi cho Google để xử lý và sau đó sẽ bị xoá. Quá trình xử lý có thể mất vài giây.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn có lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_screen_overview_promotion">Khi bạn dùng tính năng này, ảnh chụp màn hình của bạn sẽ được gửi cho Technology Entertainment để xử lý và sau đó sẽ bị xoá. Quá trình xử lý có thể mất vài giây.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn có lỗi. Bằng cách tiếp tục, bạn đồng ý với %1$s.</string>
 
   <!-- Message for dialog shown when a user wants to enable detailed image description. [CHAR LIMIT=NONE]  -->
-  <string name="dialog_message_on_device_ai_model_download">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nHình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi cho Google.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
+  <string name="dialog_message_on_device_ai_model_download">Bạn sẽ nghe thấy một đoạn mô tả ngắn khi đặt tiêu điểm vào một hình ảnh trong các ứng dụng được hỗ trợ.\n\nHình ảnh được xử lý trên thiết bị của bạn và không bao giờ được gửi ra bên ngoài.\n\nAI tạo sinh đang trong quá trình thử nghiệm nên sẽ vẫn mắc lỗi. Bằng việc tiếp tục, bạn đồng ý với %1$s.</string>
 
   <!--
     Source: Option text for the "Gemini support" setting.
@@ -1858,7 +1858,7 @@ Description: Explain that the feature is enabled for all images. [CHAR_LIMIT=NON
     <string name="summary_typo_suggestions">Hiện khi con trỏ ở vị trí có lỗi chính tả</string>
 
     <string name="summary_cache_keyboard_keys">ViTalk tải sẵn thông báo để giảm độ trễ khi bạn nhập</string>
-    <string name="summary_cache_keyboard_keys_disabled">Dùng ứng dụng Chuyển văn bản sang lời nói của Google để sử dụng tính năng này</string>
+    <string name="summary_cache_keyboard_keys_disabled">Dùng ứng dụng Chuyển văn bản sang lời nói mặc định để sử dụng tính năng này</string>
 
     <!-- Label for the direction of the "swipe down" gesture. For instance, this is used in the tutorial to inform the user of how to perform a specific gesture. [CHAR_LIMIT=40] -->
     <string name="value_direction_down">xuống</string>
@@ -2547,7 +2547,7 @@ Description: Explain that the feature is enabled for all images. [CHAR_LIMIT=NON
   <!-- Message for voice input download dialog. [CHAR_LIMIT=NONE] -->
   <string name="dialog_message_voice_input_download">Giờ đây, bạn có thể nhấn đúp bằng 2 ngón tay để bật tính năng nhập bằng giọng nói bất cứ khi nào Gboard đang hoạt động. Để dùng cử chỉ này, hãy cập nhật Gboard lên phiên bản mới nhất.</string>
   <!-- Label for update Gboard button in voice input download dialog. [CHAR_LIMIT=NONE] -->
-  <string name="label_update_gboard">Cập nhật trong Google Play</string>
+  <string name="label_update_gboard">Cập nhật trong Cửa hàng ứng dụng</string>
   <!-- Announcement for notifying user the gboard is not onscreen when triggered the voice input. [CHAR_LIMIT=NONE] -->
   <string name="announcement_voice_input_when_gboard_not_onscreen">Mở Gboard để dùng tính năng nhập văn bản bằng giọng nói</string>
 
@@ -2665,7 +2665,7 @@ Description: Explain that the feature is enabled for all images. [CHAR_LIMIT=NON
 
   <!-- For training on TV -->
   <string name="tv_training_overview_step_title">Cách thức hoạt động của ViTalk</string>
-  <string name="tv_training_overview_step_summary">ViTalk là một trình đọc màn hình của Google. Công cụ này đọc thành tiếng văn bản trên màn hình và cung cấp phản hồi bằng giọng nói để bạn có thể sử dụng thiết bị mà không cần nhìn vào màn hình.\n\nKhi tính năng ViTalk đã bật, một mục được chọn trên màn hình sẽ được đọc thành tiếng, đôi khi còn có thêm ngữ cảnh hoặc thông tin bổ sung.\n\nHãy nhấn Chọn để tiếp tục. Nút Chọn nằm ở chính giữa bàn phím di chuyển. Nút này là nút lớn hình tròn nằm ở phần đầu điều khiển từ xa.</string>
+  <string name="tv_training_overview_step_summary">ViTalk là một trình đọc màn hình dành cho người Việt của Technology Entertainment. Công cụ này đọc thành tiếng văn bản trên màn hình và cung cấp phản hồi bằng giọng nói để bạn có thể sử dụng thiết bị mà không cần nhìn vào màn hình.\n\nKhi tính năng ViTalk đã bật, một mục được chọn trên màn hình sẽ được đọc thành tiếng, đôi khi còn có thêm ngữ cảnh hoặc thông tin bổ sung.\n\nHãy nhấn Chọn để tiếp tục. Nút Chọn nằm ở chính giữa bàn phím di chuyển. Nút này là nút lớn hình tròn nằm ở phần đầu điều khiển từ xa.</string>
   <string name="tv_training_remote_step_title">Sử dụng thiết bị điều khiển từ xa của bạn</string>
   <string name="tv_training_remote_step_summary">Di chuyển quanh màn hình bằng nút di chuyển hình tròn nằm ở phần đầu điều khiển từ xa. Để chọn, hãy nhấn vào giữa nút di chuyển ở phần đầu điều khiển từ xa.\n\nNút quay lại nằm ở hàng thứ hai phía bên trái. Nút Trợ lý thoại nằm ở bên phải.\n\nNút màn hình chính nằm ở hàng thứ ba phía bên trái. Nút tắt tiếng nằm ở bên phải.\n\nPhím tắt YouTube nằm ở hàng thứ tư bên trái. Bên phải là phím tắt Netflix.\n\nỞ hàng dưới cùng có 2 nút nhỏ. Nút nguồn nằm ở phía bên trái. Nút ở bên phải dùng để mở trình đơn cổng vào của TV.\n\nCác nút âm lượng nằm ở bên phải điều khiển từ xa.\n\nHãy nhấn Chọn để tiếp tục.</string>
   <string name="tv_training_shortcut_step_title">Phím tắt ViTalk</string>
@@ -2769,13 +2769,13 @@ Description: Explain that the feature is enabled for all images. [CHAR_LIMIT=NON
   <!-- The title of the Shortcut for describe screen page. [CHAR_LIMIT=NONE]-->
   <string name="describe_screen_and_qna_title">Ngôn ngữ mới cho tính năng Mô tả nội dung trên màn hình và Hỏi Gemini</string>
   <!-- The content of the Shortcut for describe screen page. [CHAR_LIMIT=NONE]-->
-  <string name="describe_screen_and_qna_content">Tính năng Mô tả nội dung trên màn hình và Hỏi Gemini hiện hỗ trợ thêm nhiều ngôn ngữ. &lt;a href=\"https://support.google.com/accessibility/android?p=vitalk_16_1\"&gt;Tìm hiểu thêm trong trung tâm trợ giúp&lt;/a&gt;.</string>
+  <string name="describe_screen_and_qna_content">Tính năng Mô tả nội dung trên màn hình và Hỏi Gemini hiện hỗ trợ thêm nhiều ngôn ngữ.</string>
   <!-- The title of the Shortcut for dictation page. [CHAR_LIMIT=NONE]-->
   <string name="shortcut_for_dictation_title">Phím tắt cho tính năng nhập liệu bằng giọng nói</string>
   <!-- The content of the Shortcut for dictation page. [CHAR_LIMIT=NONE]-->
   <string name="shortcut_for_dictation_content">Giờ đây, khi dùng Gboard, bạn có thể nhấn đúp bằng 2 ngón tay để bắt đầu hoặc dừng tính năng nhập liệu bằng giọng nói.
 &lt;br&gt;
-&lt;br&gt;Hãy đảm bảo rằng bạn đang dùng phiên bản mới nhất của &lt;a href=\"https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin\"&gt;Gboard trên Google Play&lt;/a&gt;.</string>
+&lt;br&gt;Hãy đảm bảo rằng bạn đang dùng phiên bản mới nhất của Gboard.</string>
   <!-- The content of the Shortcut for dictation page. [CHAR_LIMIT=NONE]-->
   <string name="shortcut_for_dictation_content_without_google_play">Khi Gboard xuất hiện trên màn hình, bạn có thể nhấn đúp bằng 2 ngón tay để bắt đầu nhập văn bản bằng giọng nói rồi nhấn đúp bằng 2 ngón tay để dừng.</string>
   <!-- The title of the Keyboard page. [CHAR_LIMIT=NONE]-->
@@ -3199,13 +3199,13 @@ Description: Explain that the feature is enabled for all images. [CHAR_LIMIT=NON
   <!-- The description of making a call. [CHAR_LIMIT=NONE]-->
   <string name="making_calls_text">Bạn có thể gọi cho một người thân, bạn bè hoặc doanh nghiệp bằng ứng dụng điện thoại trên màn hình chính.\n\nKhi nhận được một cuộc gọi, bạn có thể nhấn đúp bằng 2 ngón tay để trả lời cuộc gọi đó.</string>
   <!-- The tip about how to make a call. [CHAR_LIMIT=NONE]-->
-  <string name="making_calls_tips">Bạn cũng có thể yêu cầu Trợ lý Google gọi đến một số điện thoại hoặc tên ai đó trong danh bạ của bạn</string>
+  <string name="making_calls_tips">Bạn cũng có thể yêu cầu trợ lý giọng nói gọi đến một số điện thoại hoặc tên ai đó trong danh bạ của bạn</string>
   <!-- The title of sending messages page. [CHAR_LIMIT=NONE] -->
   <string name="sending_messages_title">Gửi tin nhắn</string>
   <!-- The description of sending messages. [CHAR_LIMIT=NONE]-->
   <string name="sending_messages_text">Để gửi tin nhắn, hãy chuyển đến màn hình chính và tìm một ứng dụng nhắn tin</string>
   <!-- The tip about how to send messages. [CHAR_LIMIT=NONE]-->
-  <string name="sending_message_tips">Bạn cũng có thể yêu cầu Trợ lý Google gửi tin nhắn đến một người liên hệ hoặc số điện thoại</string>
+  <string name="sending_message_tips">Bạn cũng có thể yêu cầu trợ lý giọng nói gửi tin nhắn đến một người liên hệ hoặc số điện thoại</string>
   <!-- The title of reading webpages and emails page. [CHAR_LIMIT=NONE] -->
   <string name="reading_web_emails_title">Đọc các trang web và email</string>
   <!-- The description of reading webpages and emails. [CHAR_LIMIT=NONE]-->
@@ -3577,7 +3577,7 @@ Không dùng bất kỳ định dạng đánh dấu nào trong câu trả lời.
   <!-- The subtitle of the dialog to confirm downloading the module. [CHAR_LIMIT=NONE]-->
   <string name="confirm_download_subtitle_via_mobile_data">%1$d MB sử dụng dữ liệu di động. Bạn có thể bị tính phí dữ liệu.</string>
   <!-- The message of the dialog to confirm downloading the icon-detection module. [CHAR_LIMIT=NONE]-->
-  <string name="confirm_download_icon_detection_message">Bạn sẽ nghe thấy một mô tả ngắn khi lấy tiêu điểm vào một biểu tượng, chẳng hạn như nút trong ứng dụng.\n\nHình ảnh được xử lý trên thiết bị của bạn và sẽ không bao giờ được gửi cho Google.</string>
+  <string name="confirm_download_icon_detection_message">Bạn sẽ nghe thấy một mô tả ngắn khi lấy tiêu điểm vào một biểu tượng, chẳng hạn như nút trong ứng dụng.\n\nHình ảnh được xử lý trên thiết bị của bạn và sẽ không bao giờ gửi ra bên ngoài.</string>
   <!-- The title of the dialog to confirm downloading the image-description module. [CHAR_LIMIT=NONE]-->
   <string name="confirm_download_image_description_title">Cần tải mô hình AI xuống để dùng tính năng tự động mô tả hình ảnh</string>
   <!-- The message of the dialog to confirm downloading the image-description module. [CHAR_LIMIT=NONE]-->
@@ -3668,9 +3668,9 @@ Không dùng bất kỳ định dạng đánh dấu nào trong câu trả lời.
   <!-- The title of the dialog for updating AI services. [CHAR_LIMIT=NONE]-->
   <string name="ai_services_update_dialog_title">Cập nhật ứng dụng %1$s để nghe nội dung mô tả về hình ảnh</string>
   <!-- The message of the dialog for updating AI services. [CHAR_LIMIT=NONE]-->
-  <string name="ai_services_update_dialog_message">Để nghe nội dung mô tả về hình ảnh, hãy tải phiên bản mới nhất của %1$s từ Google Play.\n\nSau khi quá trình tải xuống hoàn tất, hãy quay lại phần cài đặt của ViTalk và bật lại tính năng tự động mô tả hình ảnh.</string>
+  <string name="ai_services_update_dialog_message">Để nghe nội dung mô tả về hình ảnh, hãy tải phiên bản mới nhất của %1$s từ Cửa hàng ứng dụng.\n\nSau khi quá trình tải xuống hoàn tất, hãy quay lại phần cài đặt của ViTalk và bật lại tính năng tự động mô tả hình ảnh.</string>
   <!-- The confirm button for updating AI services. [CHAR_LIMIT=NONE]-->
-  <string name="ai_services_update_dialog_button_text">Truy cập Google Play</string>
+  <string name="ai_services_update_dialog_button_text">Truy cập Cửa hàng ứng dụng</string>
   <!-- The app name of AiCore. [CHAR_LIMIT=NONE]-->
   <string name="aicore_app_name">AICore</string>
   <!-- The app name of Astrea(go/astrea). [CHAR_LIMIT=NONE]-->
