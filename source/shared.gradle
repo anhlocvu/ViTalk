@@ -47,7 +47,8 @@ android {
 dependencies {
 
     // Google common
-    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.1'
+    implementation 'com.google.mlkit:common:18.0.0'
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
     implementation 'com.google.android.material:material:1.11.0'
 
     // Support library
