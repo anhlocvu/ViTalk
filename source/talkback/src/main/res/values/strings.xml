@@ -39,7 +39,7 @@
       Source: Title for the activity that manages Text to speech settings.
       Description: This is presented to the user when managing Text to speech settings. [CHAR LIMIT=NONE]
     -->
-    <string name="tts_preferences_title">Chuyển văn bản sang lời nói</string>
+    <string name="tts_preferences_title">Cài đặt giọng đọc</string>
     <!--
       Source: Title for the menu item that opens the dialog with TTS  languages installed by the user.
       Description: This is presented to the user. [CHAR LIMIT=NONE]
@@ -1013,7 +1013,7 @@
       Source: Title for the preference that causes TalkBack to decrease audio volume of other applications during speech output.
       Description: The user can check or not check this. [CHAR LIMIT=35]
      -->
-    <string name="title_pref_use_audio_focus">Giảm âm thanh</string>
+    <string name="title_pref_use_audio_focus">Tự động giảm âm lượng nền</string>
     <!--
       Source: Preference for changing the volume of sound feedback.
       Description: Contains a list of volume settings. [CHAR LIMIT=25]

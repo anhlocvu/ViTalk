@@ -5,7 +5,7 @@
   <string name="talkback_service_summary">ViTalk, trình đọc màn hình thân thiện với người Việt</string>
   <string name="talkback_preferences_title">Cài đặt ViTalk</string>
   <string name="talkback_settings_screen_title_breadcrumb">Cài đặt</string>
-  <string name="tts_preferences_title">Chuyển văn bản sang lời nói</string>
+  <string name="tts_preferences_title">Cài đặt giọng đọc</string>
   <string name="language_options">Ngôn ngữ</string>
   <string name="spoken_language">Ngôn ngữ nói</string>
   <string name="actions">Thao tác</string>
@@ -349,7 +349,7 @@
   <string name="title_pref_speech_footer">Bạn có thể nhanh chóng điều chỉnh một số chế độ cài đặt âm thanh của ViTalk trên màn hình bất kỳ.\n\nÂm lượng của tính năng hỗ trợ tiếp cận: Giữ 1 ngón tay trên màn hình và nhấn phím tăng hoặc giảm âm lượng.\nTốc độ lời nói của ViTalk: Dùng 3 ngón tay vuốt lên hoặc xuống. Khi bạn nghe thấy \"tốc độ lời nói\", hãy dùng 1 ngón tay vuốt lên hoặc xuống.</string>
   <string name="title_pref_vibration">Phản hồi bằng cách rung</string>
   <string name="title_pref_soundback">Phản hồi bằng âm thanh</string>
-  <string name="title_pref_use_audio_focus">Giảm âm thanh</string>
+  <string name="title_pref_use_audio_focus">Tự động giảm âm lượng nền</string>
   <string name="title_pref_soundback_volume">Âm lượng phản hồi bằng âm thanh</string>
   <string name="title_pref_category_developer_settings">Chế độ cài đặt cho nhà phát triển</string>
   <string name="title_activity_dump_a11y_event">Chọn sự kiện để ghi</string>
