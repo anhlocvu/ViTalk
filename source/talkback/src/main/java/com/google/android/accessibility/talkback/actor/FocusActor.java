@@ -145,10 +145,20 @@ public class FocusActor implements UserInputEventListener {
       return true;
     }
 
-    if (PerformActionUtils.isNodeSupportAction(node, AccessibilityNodeInfoCompat.ACTION_CLICK)
-        && pipeline.returnFeedback(eventId, Feedback.nodeAction(node, ACTION_CLICK.getId()))) {
-      return true;
+    // Find the current node itself or its closest ancestor that is clickable (isClickable() == true or supports ACTION_CLICK)
+    AccessibilityNodeInfoCompat clickableNode =
+        AccessibilityNodeInfoUtils.getSelfOrMatchingAncestor(
+            node, AccessibilityNodeInfoUtils.FILTER_CLICKABLE);
+
+    if (clickableNode != null) {
+      // Send accessibility click action to the clickable node/ancestor directly without filtering by isNodeSupportAction.
+      // This solves issues with custom frameworks (like Facebook's Litho/React Native) where views have clickable=true
+      // but do not explicitly declare ACTION_CLICK in their accessibility action list.
+      if (pipeline.returnFeedback(eventId, Feedback.nodeAction(clickableNode, ACTION_CLICK.getId()))) {
+        return true;
+      }
     }
+
     if (gestureDetectionState.gestureDetector()) {
       TouchInteractionController controller =
           service.getTouchInteractionController(
