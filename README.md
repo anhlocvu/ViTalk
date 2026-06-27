@@ -43,13 +43,66 @@ Dự án sử dụng bộ Gradle Wrapper để biên dịch trực tiếp trên 
 * **Android SDK:** Đã cấu hình biến môi trường `ANDROID_HOME`.
 
 ### Các bước biên dịch:
+
+#### 1. Biên dịch phiên bản thử nghiệm (Debug Version):
 1. Mở cửa sổ dòng lệnh (PowerShell hoặc Command Prompt) tại thư mục chứa mã nguồn (`source/`).
-2. Chạy lệnh dọn dẹp và biên dịch tệp APK dạng debug cho điện thoại:
+2. Chạy lệnh biên dịch tệp APK debug cho điện thoại:
    ```powershell
    .\gradlew.bat assemblePhoneDebug
    ```
 3. Sau khi quá trình biên dịch báo `BUILD SUCCESSFUL`, tệp APK hoàn chỉnh sẽ được xuất ra tại:
-   `source/build/outputs/apk/phone/debug/Vitalk-phone-debug.apk`
+   `source/build/outputs/apk/phone/debug/source-phone-debug.apk` (Bản này được copy tự động ra thư mục gốc dưới tên `ViTalk-debug.apk` để cài đặt thử nghiệm trực tiếp).
+
+#### 2. Biên dịch phiên bản phát hành (Release Version):
+Phiên bản phát hành (Release APK) được tối ưu hóa về hiệu năng và tài nguyên. Để cài đặt được trên thiết bị Android, tệp APK này bắt buộc phải được ký số (Signing).
+
+##### Cách 1: Tự động ký số thông qua Gradle (Khuyên dùng)
+Bạn có thể cấu hình để Gradle tự động ký số APK Release mỗi khi chạy lệnh build.
+1. Tạo một tệp Keystore (nếu chưa có) bằng lệnh JDK `keytool` sau:
+   ```powershell
+   keytool -genkey -v -keystore vitalk-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias vitalk-alias
+   ```
+   *Lưu ý: Lưu tệp `vitalk-release-key.jks` này vào thư mục `source/`.*
+2. Cấu hình thông tin ký số trong [source/build.gradle](file:///D:/android_app/ViTalk/source/build.gradle) bằng cách thêm khối `signingConfigs` và liên kết nó vào `buildTypes.release`:
+   ```properties
+   android {
+       ...
+       signingConfigs {
+           release {
+               storeFile file("vitalk-release-key.jks")
+               storePassword "mật_khẩu_của_bạn"
+               keyAlias "vitalk-alias"
+               keyPassword "mật_khẩu_của_bạn"
+           }
+       }
+       buildTypes {
+           release {
+               signingConfig signingConfigs.release
+               // minifyEnabled và shrinkResources có thể được bật khi muốn tối ưu hóa triệt để code bằng Proguard/R8
+           }
+       }
+   }
+   ```
+3. Chạy lệnh biên dịch bản Release:
+   ```powershell
+   .\gradlew.bat assemblePhoneRelease
+   ```
+4. Tệp APK đã ký hoàn chỉnh sẽ xuất hiện tại:
+   `source/build/outputs/apk/phone/release/source-phone-release.apk`
+
+##### Cách 2: Ký số thủ công sau khi build
+Nếu không muốn lưu mật khẩu Keystore trong file Gradle, bạn có thể ký thủ công sau khi build:
+1. Chạy lệnh build bản release chưa ký (unsigned):
+   ```powershell
+   .\gradlew.bat assemblePhoneRelease
+   ```
+2. Tìm tệp APK chưa ký tại thư mục:
+   `source/build/outputs/apk/phone/release/source-phone-release-unsigned.apk`
+3. Dùng công cụ `apksigner` của Android SDK để ký:
+   ```powershell
+   apksigner sign --ks vitalk-release-key.jks --out ViTalk-release.apk source/build/outputs/apk/phone/release/source-phone-release-unsigned.apk
+   ```
+   *(Nhập mật khẩu Keystore khi được yêu cầu, tệp APK đã ký `ViTalk-release.apk` sẽ được tạo ra tại thư mục hiện tại).*
 
 ---
 
