@@ -25,8 +25,10 @@ braille/braillebrltty/build/
 materialpreference/build/
 materialpreferencecompose/build/
 
-# Exclude talkback folder as it is only for reference (only at the root level)
+# Exclude reference folders (only at the root level)
 /talkback/
+/talkback-foss/
+/orion-ai-screen-reader/
 
 # Exclude generated APKs inside build folders, but KEEP ViTalk-debug.apk at the root
 **/build/outputs/apk/
